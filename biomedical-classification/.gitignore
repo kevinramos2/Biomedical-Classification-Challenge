@@ -26,6 +26,10 @@ venv*/
 *.toml
 *.cfg
 
+# --- Configuración del editor (VS Code, PyCharm, etc.) ---
+.vscode/
+.idea/
+
 # --- Archivos del sistema operativo ---
 .DS_Store
 Thumbs.db
