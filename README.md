@@ -94,20 +94,26 @@ También se incluye una **matriz de confusión** por etiqueta.
 
 ---
 
-## 📦 Cómo usar este repositorio
+## 📦 Cómo usar este repositorio (Windows)
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/kevinramos2/Articulos-medicos-por-dominio.git
    cd biomedical-classification
-2. Instalar dependencias:
+2. Crear entorno virtual:
+   ```bash
+   python -m venv .venv
+4. Activar entorno virtual (cada vez que abras el proyecto):
+   ```bash
+   .\.venv\Scripts\Activate.ps1
+6. Instalar dependencias:
    ```bash
    pip install -r requirements.txt
-3. Abrir los notebooks en orden:
+7. Abrir los notebooks en orden:
    ```bash
    notebooks/01_eda.ipynb
    notebooks/02_train_baseline.ipynb
    notebooks/03_embeddings.ipynb (opcional)
-4. Revisar modelos entrenados en /models/ y resultados en /evidence/.
+8. Revisar modelos entrenados en /models/ y resultados en /evidence/.
 
 ## 👥 Equipo
 Este proyecto fue desarrollado por:  
