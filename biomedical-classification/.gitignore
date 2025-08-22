@@ -1,0 +1,33 @@
+# --- Archivos de Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Archivos de entornos virtuales ---
+.venv/
+venv/
+ENV/
+env/
+.venv*/
+venv*/
+
+# --- Archivos de Jupyter ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Archivos de logs y debug ---
+*.log
+*.out
+*.err
+
+# --- Configuración local (no necesaria en el repo) ---
+*.env
+*.ini
+*.toml
+*.cfg
+
+# --- Archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
