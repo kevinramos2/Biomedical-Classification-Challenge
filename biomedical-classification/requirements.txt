@@ -1,11 +1,18 @@
-# Core libraries
-pandas>=2.0
-numpy>=1.24
-scikit-learn>=1.3
+# Ciencia de datos
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
 
-# Visualization
-matplotlib>=3.7
-seaborn>=0.12
+# NLP y embeddings
+nltk
+sentence-transformers
 
-# Jupyter kernel
-ipykernel>=6.0
+# Deep learning backend
+torch
+torchvision
+torchaudio
+
+# Utilidades
+joblib
