@@ -105,7 +105,7 @@ También se incluye una **matriz de confusión** por etiqueta.
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/kevinramos2/Articulos-medicos-por-dominio.git
+   git clone https://github.com/kevinramos2/Biomedical-Classification-Challenge.git
    cd biomedical-classification
    ```
 2. Crear entorno virtual:
