@@ -1,6 +1,6 @@
-# Biomedical Classification Challenge 🧬🤖
+# Biomedical Classification Challenge
 
-## 📌 Contexto
+## Contexto
 
 Este proyecto fue desarrollado para el **Data Challenge de Clasificación Biomédica con IA**.  
 El objetivo es construir una solución de Inteligencia Artificial que clasifique artículos de investigación médica en uno o varios dominios:
@@ -17,14 +17,14 @@ La clasificación se realiza a partir de dos campos de texto por artículo:
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Dado un artículo médico (título + abstract), el sistema debe predecir correctamente su(s) categoría(s).  
 Se trata de un **problema de clasificación multi-etiqueta**.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - Registros: **3,565 artículos**
 - Columnas principales:
@@ -36,7 +36,7 @@ El dataset fue provisto por la organización del challenge y combina datos de **
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3.10+**
 - **Librerías de Ciencia de Datos**: pandas, numpy, scikit-learn
@@ -46,7 +46,7 @@ El dataset fue provisto por la organización del challenge y combina datos de **
 
 ---
 
-## 📁 Estructura
+## Estructura
 
 ```plaintext
 biomedical-classification/
@@ -75,7 +75,7 @@ biomedical-classification/
 
 ---
 
-## 🚀 Solución propuesta
+## Solución propuesta
 
 1. **EDA (Exploratory Data Analysis)** → entender distribución de clases, textos y multi-etiquetas.
 2. **Baseline con TF-IDF + Logistic Regression**
@@ -94,14 +94,14 @@ biomedical-classification/
 
 ---
 
-## 📈 Evaluación
+## Evaluación
 
 El proyecto será evaluado principalmente con la métrica **Weighted F1-score**, además de precisión, recall y exactitud.  
 También se incluye una **matriz de confusión** por etiqueta.
 
 ---
 
-## 📦 Cómo usar este repositorio (Windows)
+## Cómo usar este repositorio (Windows)
 
 1. Clonar el repositorio:
    ```bash
@@ -128,7 +128,7 @@ También se incluye una **matriz de confusión** por etiqueta.
    ```
 6. Revisar modelos entrenados en /models/ y resultados en /evidence/.
 
-## 👥 Equipo
+## Equipo
 
 Este proyecto fue desarrollado por:
 
