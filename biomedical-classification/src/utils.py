@@ -1,7 +1,7 @@
 # Funciones auxiliares
 import numpy as np  
 import random
-import torch  
+import torch
 
 def semilla(seed=42):
   # Se fija la semilla para reproducibilidad en numpy, random y torch
