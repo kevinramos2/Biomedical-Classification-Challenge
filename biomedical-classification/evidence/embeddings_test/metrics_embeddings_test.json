@@ -1,0 +1,13 @@
+{
+    "model": "embeddings",
+    "split": "test",
+    "exact_match": 0.6760168302945302,
+    "f1_micro": 0.8527472527472527,
+    "f1_macro": 0.8470743773882958,
+    "per_class": {
+        "cardiovascular": 0.8450704225352113,
+        "hepatorenal": 0.8571428571428571,
+        "neurological": 0.8653295128939829,
+        "oncological": 0.8207547169811321
+    }
+}

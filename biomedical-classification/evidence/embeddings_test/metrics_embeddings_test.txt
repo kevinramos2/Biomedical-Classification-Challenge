@@ -1,0 +1,16 @@
+Exact Match Ratio: 0.6760
+F1 Micro: 0.8527
+F1 Macro: 0.8471
+
+Classification Report:
+                precision    recall  f1-score   support
+
+cardiovascular       0.86      0.83      0.85       254
+   hepatorenal       0.90      0.82      0.86       217
+  neurological       0.89      0.84      0.87       358
+   oncological       0.95      0.72      0.82       120
+
+     micro avg       0.89      0.82      0.85       949
+     macro avg       0.90      0.80      0.85       949
+  weighted avg       0.89      0.82      0.85       949
+   samples avg       0.91      0.87      0.87       949
