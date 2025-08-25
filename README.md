@@ -95,6 +95,12 @@ biomedical-classification/
 
 ---
 
+## Diagrama del pipeline
+![Pipeline de la solución](docs/diagram.png)
+*(Diagrama en proceso, se actualizará en la versión final)*
+
+---
+
 ## Entrenar y evaluar (Notebooks)
 
 - `notebooks/02_train_baseline.ipynb` → Entrena y evalúa el modelo **baseline** (TF-IDF + Logistic Regression).
