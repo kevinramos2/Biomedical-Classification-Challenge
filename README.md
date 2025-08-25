@@ -96,8 +96,8 @@ biomedical-classification/
 ---
 
 ## Diagrama del pipeline
-![Pipeline de la solución](docs/diagram.png)
-*(Diagrama en proceso, se actualizará en la versión final)*
+![Pipeline de la solución](data/diagramaPipeline.png)
+
 
 ---
 
