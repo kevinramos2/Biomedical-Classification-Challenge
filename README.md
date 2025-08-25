@@ -41,7 +41,7 @@ El dataset fue provisto por la organización del challenge y combina datos de **
 - **Python 3.10+**
 - **Librerías de Ciencia de Datos**: pandas, numpy, scikit-learn
 - **NLP (Procesamiento de Lenguaje Natural)**: NLTK, scikit-learn (TF-IDF), sentence-transformers (para embeddings)
-- **Visualización**: matplotlib, seaborn, V0 (bonus)
+- **Visualización**: matplotlib, seaborn
 - **Gestión del proyecto**: GitHub, notebooks (Jupyter)
 
 ---
@@ -68,7 +68,7 @@ biomedical-classification/
 │ └── utils.py
 │
 ├── models/            # modelos entrenados (.joblib)
-├── evidence/          # capturas, prompts y resultados de V0
+├── evidence/          # capturas, prompts y resultados
 │
 ├── requirements.txt   # librerías necesarias
 └── README.md          # este archivo
@@ -88,7 +88,6 @@ biomedical-classification/
    - Entrenar un modelo clásico (Logistic Regression o XGBoost) sobre estos embeddings.
 4. **Visualización de resultados**
    - Graficar métricas y matriz de confusión en Python.
-   - Crear visualizaciones interactivas en **V0** (bonus).
 5. **Entrega final**
    - Guardar modelo entrenado en `/models/`.
    - Documentar resultados y visualizaciones en `/evidence/`.
