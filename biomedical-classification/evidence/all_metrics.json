@@ -1,0 +1,54 @@
+{
+    "baseline_val": {
+        "model": "baseline",
+        "split": "val",
+        "exact_match": 0.6398601398601399,
+        "f1_micro": 0.8005952380952381,
+        "f1_macro": 0.7342422876487694,
+        "per_class": {
+            "cardiovascular": 0.8295454545454546,
+            "hepatorenal": 0.6917293233082706,
+            "neurological": 0.8926174496644296,
+            "oncological": 0.5230769230769231
+        }
+    },
+    "baseline_test": {
+        "model": "baseline",
+        "split": "test",
+        "exact_match": 0.6549789621318373,
+        "f1_micro": 0.8116113744075829,
+        "f1_macro": 0.7662826651808338,
+        "per_class": {
+            "cardiovascular": 0.821917808219178,
+            "hepatorenal": 0.7251461988304093,
+            "neurological": 0.8894952251023193,
+            "oncological": 0.6285714285714286
+        }
+    },
+    "embeddings_val": {
+        "model": "embeddings",
+        "split": "val",
+        "exact_match": 0.7027972027972028,
+        "f1_micro": 0.8575380359612724,
+        "f1_macro": 0.8477422783836529,
+        "per_class": {
+            "cardiovascular": 0.8795811518324608,
+            "hepatorenal": 0.8165680473372781,
+            "neurological": 0.8808664259927798,
+            "oncological": 0.813953488372093
+        }
+    },
+    "embeddings_test": {
+        "model": "embeddings",
+        "split": "test",
+        "exact_match": 0.6760168302945302,
+        "f1_micro": 0.8527472527472527,
+        "f1_macro": 0.8470743773882958,
+        "per_class": {
+            "cardiovascular": 0.8450704225352113,
+            "hepatorenal": 0.8571428571428571,
+            "neurological": 0.8653295128939829,
+            "oncological": 0.8207547169811321
+        }
+    }
+}
